@@ -8,7 +8,6 @@
 /* Main */
 .main-container {
     width: 80%;
-    background-color: darkblue;
     margin: auto;
 }
 
@@ -33,9 +32,13 @@
 }
 
 .card.right {
- margin-right: 2%;
+    margin-right: 2%;
 }
 
 .card img {
     width: 100%;
+}
+
+.card img.b {
+    display: none;
 }
