@@ -5,6 +5,16 @@
     padding: 0;
 }
 
-body {
+.main-container {
+    width: 80%;
     background-color: darkblue;
+    margin: auto;
+}
+
+.card {
+    width: 30%
+}
+
+.card img {
+    width: 100%;
 }
