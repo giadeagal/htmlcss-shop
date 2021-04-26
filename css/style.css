@@ -42,3 +42,11 @@
 .card img.b {
     display: none;
 }
+
+.card:hover img.a {
+    display: none
+}
+
+.card:hover img.b {
+    display: block;
+}
