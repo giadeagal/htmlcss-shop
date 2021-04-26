@@ -20,7 +20,7 @@
 /* Card */
 .card {
     width: 30%;
-    height: 700px;
+    height: 600px;
     float: left;
     position: relative;
 }
@@ -51,7 +51,7 @@
 
 .card-top img {
     width: 100%;
-    /* height: 500px; */
+    height: 500px;
 }
 
 .card-top img.b {
@@ -70,23 +70,25 @@
 
 /* .card-top - tag */
 
-.card-top .tag {
+.tags {
     position: absolute;
     bottom: 25px;
-    display: inline-block;
-    padding: 5px;
     font-weight: bold;
     color: white;
 }
 
 .card-top .eco {
-    background-color: darkgreen;
+    background-color: darkgreen;    
+}
+
+.card-top .discount {
+    background-color: red;
     display: inline-block;
     padding: 5px;
 }
 
-.card-top div[class^=discount] {
-    background-color: red;
+.card-top .eco,
+.card-top .discount {
     display: inline-block;
     padding: 5px;
 }
