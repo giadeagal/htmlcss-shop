@@ -5,14 +5,35 @@
     padding: 0;
 }
 
+/* Main */
 .main-container {
     width: 80%;
     background-color: darkblue;
     margin: auto;
 }
 
+.main-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Card */
 .card {
-    width: 30%
+    width: 30%;
+    float: left;
+}
+
+.card.left {
+    margin-left: 2%;
+}
+
+.card.middle {
+    margin: 0px 3%;
+}
+
+.card.right {
+ margin-right: 2%;
 }
 
 .card img {
