@@ -1,0 +1,108 @@
+/* Formattazione */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 70%;
+    height: 900px;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.card {
+    position: relative;
+    width: 32%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.card.special {
+    background-color: #75ac51;
+    /* height: 600px; */
+}
+
+.card img {
+    width: 100%;
+}
+
+.card.cx {
+    margin: 0 2%;
+}
+
+img.b {
+    display: none;
+}
+
+.card:hover img.a{
+    display: none;
+}
+
+.card:hover img.b {
+    display: block;
+}
+
+.discount {
+    position: absolute;
+    bottom: 90px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+}
+
+.eco {
+    position: absolute;
+    bottom: 90px;
+    left: 55px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkgreen;
+}
+
+.eco.only {
+    left:0px
+}
+
+.heart {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.info h2 {
+    font-size: 18px;
+}
+
+.info-special h2 {
+    font-size: 18px;
+}
+
+.info-special p,
+.info-special h2 {
+    margin: 10px;
+}
+
+.price:not(.black) {
+    color: red;
+    padding-top: 5px;
+}
+
+card.bottom {
+    margin-top: 200px;
+}
